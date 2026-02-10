@@ -6,6 +6,8 @@
 
 ## Project Overview
 
+(NEW STANDARD ARCHITECTURE IS A SIMULATED DSP VM WITH 1.33ms)
+
 This mod extends the idTech 4 engine (via the Dhewm3 port) to support hardware-accelerated audio processing using a USB-connected Digital Signal Processor (DSP, e.g., Texas Instruments TMS320C674x). It introduces real-time ray-traced audio effects (e.g., reverb, occlusion, distortion) and dynamic audio mode zones defined by in-game entities (`func_audio_mode`). Designed for single-player horror/cyberpunk mods like *Petabyte Madness*, it enhances immersion with spatial audio and dynamic effects while maintaining compatibility with idTech4’s sound system (e.g., OpenAL fallback). The mod is modder-friendly, with editor integration, debug tools, and extensive configuration via cVARs.
 
 Key features include:
